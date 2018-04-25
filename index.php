@@ -5,4 +5,3 @@
 	echo "<pre>".print_r($a, true)."</pre>";
 
 ?>
-Hola Braulio :)
