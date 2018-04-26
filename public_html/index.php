@@ -16,13 +16,13 @@
 
 	<meta charset="UTF-8">
 
-	<title>Document</title>
+	<title>Heroku</title>
 
 </head>
 
 <body>
 
-	<div class="ctd">Hola Braulio</div>
+	<div class="ctd">Mi primer HTML con PHP en Heroku</div>
 	
 </body>
 
