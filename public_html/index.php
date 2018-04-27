@@ -2,7 +2,11 @@
 
 	$a = $_SERVER;
 
-	echo "<pre>".print_r($a, true)."</pre>";
+	$b = "/app";
+
+	$c = json_decode(file_get_contents('$b/data.json'), true);
+
+	echo "<pre>".print_r($c, true)."</pre>";
 
 	// phpinfo();
 
