@@ -2,9 +2,9 @@
 
 	$a = $_SERVER;
 
-	$b = "/app";
+	$b = preg_replace('/\W\w+\s*(\W*)$/', '$1', $_SERVER['DOCUMENT_ROOT']) . '/data';
 
-	$c = json_decode(file_get_contents('$b/data.json'), true);
+	$c = json_decode(file_get_contents("$b/data.json"), true);
 
 	echo "<pre>".print_r($c, true)."</pre>";
 
